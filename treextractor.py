@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from functools import lru_cache
-from .config import MAX_CACHE_SIZE
+from config import MAX_CACHE_SIZE
 import logging
 import re
 

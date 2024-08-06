@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from functools import lru_cache
 import logging
-from .config import MAX_CACHE_SIZE
+from config import MAX_CACHE_SIZE
 
 # Configure logging
 logging.basicConfig(level=logging.INFO,

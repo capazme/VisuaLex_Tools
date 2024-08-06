@@ -1,9 +1,9 @@
 import re
-from .text_op import normalize_act_type, parse_date
-from .map import NORMATTIVA_URN_CODICI
+from text_op import normalize_act_type, parse_date
+from map import NORMATTIVA_URN_CODICI
 from functools import lru_cache
-from .config import MAX_CACHE_SIZE
-from .sys_op import setup_driver, close_driver, drivers
+from config import MAX_CACHE_SIZE
+from sys_op import setup_driver, close_driver, drivers
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait

@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from functools import lru_cache
-from .config import MAX_CACHE_SIZE
-from .sys_op import close_driver
+from config import MAX_CACHE_SIZE
+from sys_op import close_driver
 
 # Configure logging
 logging.basicConfig(level=logging.INFO,

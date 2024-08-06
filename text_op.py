@@ -1,8 +1,8 @@
 import re
 import datetime
 from functools import lru_cache
-from .config import MAX_CACHE_SIZE
-from .map import NORMATTIVA, NORMATTIVA_SEARCH, BROCARDI_SEARCH
+from config import MAX_CACHE_SIZE
+from map import NORMATTIVA, NORMATTIVA_SEARCH, BROCARDI_SEARCH
 import logging
 
 # Configure logging

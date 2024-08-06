@@ -2,9 +2,9 @@ import re
 import os
 import logging
 from bs4 import BeautifulSoup
-from .map import BROCARDI_CODICI, BROCARDI_MAP
-from .norma import NormaVisitata
-from .text_op import normalize_act_type
+from map import BROCARDI_CODICI, BROCARDI_MAP
+from norma import NormaVisitata
+from text_op import normalize_act_type
 import requests
 
 # Configure logging

@@ -1,7 +1,7 @@
-from tools.urngenerator import generate_urn
-from tools.text_op import normalize_act_type
+from urngenerator import generate_urn
+from text_op import normalize_act_type
 from datetime import datetime
-from tools.treextractor import get_tree
+from treextractor import get_tree
 import logging
 
 # Configure logging
