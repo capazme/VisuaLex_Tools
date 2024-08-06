@@ -14,3 +14,4 @@ langchain
 transformers
 bitsandbytes
 accelerate
+langchain_community
