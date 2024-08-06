@@ -7,7 +7,7 @@ from sys_op import setup_driver, close_driver, drivers
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from tools.text_op import estrai_data_da_denominazione
+from text_op import estrai_data_da_denominazione
 import logging
 
 # Configure logging
